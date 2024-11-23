@@ -1,0 +1,144 @@
+/* Background style for the entire registration page */
+.registration-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../images/background.png'); /* Update with the correct image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main registration container */
+.registration-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+/* Logo Styling */
+.registration-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title and subheading styles */
+.registration-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form input styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #5f7bb2;
+  font-weight: bold;
+}
+
+/* Register button styling */
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #202B3F; /* Default active color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #5f7bb2; /* Hover color */
+}
+
+.register-button:disabled {
+  background-color: #b0c4de; /* Disabled state color */
+  cursor: not-allowed;
+}
+
+
+/* Link styling */
+.link-section {
+  margin-top: 15px;
+}
+
+.link-section a {
+  color: #5C2D91;
+  text-decoration: none;
+}
+
+.link-section a:hover {
+  text-decoration: underline;
+}
+
+/* Error messages */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* Highlight invalid inputs */
+.form-group.error input {
+  border-color: red;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 480px) {
+  .registration-container {
+    padding: 20px;
+  }
+
+  .registration-container h2 {
+    font-size: 22px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .register-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+

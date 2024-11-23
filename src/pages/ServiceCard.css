@@ -1,0 +1,231 @@
+.service-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  
+  .service-content {
+    padding: 1.5rem;
+  }
+  
+  .service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .service-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .edit-button {
+    padding: 0.25rem;
+    border-radius: 9999px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .edit-icon {
+    height: 1rem;
+    width: 1rem;
+    color: #6b7280;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    font-size: 0.875rem;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  .edit-actions {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .save-button,
+  .cancel-button {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #3b82f6;
+    color: #ffffff;
+  }
+  
+  .save-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .cancel-button {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .service-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .detail-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .time-slots-section {
+    margin-top: 1.5rem;
+  }
+  
+  .time-slots-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+  }
+  
+  .time-slots-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .date-slot {
+    background-color: #f3f4f6;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+  }
+  
+  .date-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .time-slots {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .time-slot-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .time-slot-item input[type="checkbox"] {
+    border-radius: 0.25rem;
+    border-color: #d1d5db;
+  }
+  
+  .time-slot-item input[type="checkbox"]:checked {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+  }
+  
+  .time-slot-item span {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .service-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  
+  .add-slots-button,
+  .delete-slots-button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .add-slots-button {
+    background-color: #3b82f6;
+    color: #ffffff;
+  }
+  
+  .add-slots-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .delete-slots-button {
+    background-color: #ef4444;
+    color: #ffffff;
+  }
+  
+  .delete-slots-button:hover {
+    background-color: #dc2626;
+  }
+  
+  .action-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+  }

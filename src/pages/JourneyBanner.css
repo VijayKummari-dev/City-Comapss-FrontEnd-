@@ -1,0 +1,56 @@
+.journey-banner {
+    text-align: center;
+    padding: 280px 20px;
+    font-family: "Arial", sans-serif;
+    color: #ffffff; /* White text for better contrast */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/025/871/495/original/travel-destination-background-and-template-design-with-travel-destinations-and-famous-landmarks-and-attractions-for-tourism-let-s-go-travel-illustration-vector.jpg");
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 400px; /* Sets a minimum height for the banner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .journey-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds shadow for readability */
+  }
+  
+  .journey-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+     /* Adds shadow for readability */
+  }
+  
+  .journey-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* White text for button */
+    background-color: #006400; /* Dark green background */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to the button */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between text and icon */
+    text-shadow: none; /* No shadow on the button text */
+  }
+  
+  .journey-button:hover {
+    background-color: #004d00; /* Darker green on hover */
+  }
+  
+  .button-icon {
+    font-size: 1.2rem;
+  }
+  

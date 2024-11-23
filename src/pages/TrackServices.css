@@ -1,0 +1,105 @@
+/* Container Styles */
+.track-services-container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.track-services-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Service List Container */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+/* Service Box Styles */
+.service-box {
+    flex: 0 0 calc(33.33% - 20px); /* Take up 1/3 of the row width */
+    max-width: 33.33%; /* Limit the width to 1/3 */
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #7b729e;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(140, 84, 84, 0.1);
+    margin-bottom: 20px;
+
+}
+
+/* Service Box Heading */
+.service-box h3 {
+    margin-bottom: 10;
+    color: #333;
+}
+
+/* Service Box Paragraphs */
+.service-box p {
+    margin: 5px 0;
+ 
+    color: #555;
+}
+
+/* Cancel Button Styles */
+.cancel-button {
+   
+    display: block;
+    width: wrap;
+    padding: 10px;
+    
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:100px;
+    margin-top:20px ;
+    
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+.profileh {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center the title horizontally */
+    gap: 10px; /* Add some space between the image and the title */
+    position: relative; /* Needed for the title to remain in the center */
+}
+
+.profile-icon {
+    width: 50px; /* Set desired width for the profile picture */
+    height: 50px; /* Set desired height for the profile picture */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    margin-right: auto; /* Push the image to the far left */
+}
+
+h3 {
+    flex-grow: 1; /* Ensure the title takes up remaining space */
+    text-align: auto; /* Center the text in its space */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin: 0;
+    margin-left: 12%; /* Remove default margin */
+}

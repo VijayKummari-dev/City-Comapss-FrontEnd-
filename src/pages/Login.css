@@ -1,0 +1,138 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  padding: 20px;
+}
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  width: 120px; /* Adjust as needed */
+  height: auto;
+}
+
+.login-background {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.login-button:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+/* Container for the login box */
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title and subheading styles */
+.login-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.login-subheading {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Form input styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #0073b1;
+  font-weight: bold;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0073b1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.login-button:hover {
+  background-color: #005f93;
+}
+
+/* Link styling */
+.link-section {
+  margin-top: 15px;
+}
+
+.link-section a {
+  color: #5C2D91;
+  text-decoration: none;
+}
+
+.link-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+  
+  .login-container h2 {
+    font-size: 22px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .login-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

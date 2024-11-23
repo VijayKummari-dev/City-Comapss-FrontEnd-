@@ -1,0 +1,237 @@
+/* 
+
+.time-slot label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.delete-button {
+    background-color: #dc3545;
+}
+
+button.delete-button:hover {
+    background-color: #c82333;
+} */
+/* General Layout */
+.view-services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fb;
+}
+
+/* Headings */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Service Card */
+.service-card, .request-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.service-card:hover, .request-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3, .request-card h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-card p, .request-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.save-btn:hover {
+    background-color: #218838;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.delete-time-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.delete-time-btn:hover {
+    background-color: #c82333;
+}
+
+.view-requests-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.view-requests-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Edit Form */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.edit-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.edit-form input, .edit-form select {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Requests Section */
+.service-requests h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.request-card button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.request-card button.accept-btn {
+    background-color: #28a745;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.request-card button.accept-btn:hover {
+    background-color: #218838;
+}
+
+.request-card button.decline-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.request-card button.decline-btn:hover {
+    background-color: #c82333;
+}
+
+/* Dashboard Overview */
+.dashboard-overview {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.analytics-card {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.analytics-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.analytics-card h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.analytics-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .dashboard-overview {
+        flex-direction: column;
+    }
+}

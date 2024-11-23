@@ -1,0 +1,25 @@
+.job-details-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .upload-section {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .apply-button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
